@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pinguim Seletor de Matérias</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <style>
+    .disciplina-item {
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+      font-size: 0.9rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    .disciplinas-lista {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+      gap: 0.75rem;
+    }
+    .professor-chip {
+      background-color: #f8f9fa;
+      border: 1px solid #ced4da;
+      border-radius: 0.5rem;
+      padding: 0.3rem 0.6rem;
+      display: flex;
+      align-items: center;
+      font-size: 0.85rem;
+    }
+    .professor-chip .remover {
+      margin-left: 0.5rem;
+      cursor: pointer;
+      font-weight: bold;
+      color: #dc3545;
+    }
+
+
+  </style>
+</head>
+<body class="bg-light">
+<div class="container mt-5">
+  <div class="d-flex align-items-center mb-4">
+  <img src="{{ url_for('static', filename='imagens/pinguim.webp') }}" alt="Pinguim" 
+       class="rounded shadow-sm" style="height: 50px; margin-right: 15px; width: auto;">
+  <h1 class="fw-bold mb-0">Pinguim Seletor de Matérias</h1>
+</div> 
+  <form action="/recomendar" method="POST">
+    <div class="row mb-3">
+      <div class="col-md-4 form-floating">
+        <input type="number" name="tempo_estudo" class="form-control" id="tempo_estudo" placeholder="Estudo" required />
+        <label for="tempo_estudo">Tempo a ser dedicado pra estudo (h/semana)</label>
+      </div>
+      <div class="col-md-4 form-floating">
+        <input type="number" name="tempo_transporte" class="form-control" id="tempo_transporte" placeholder="Transporte" required />
+        <label for="tempo_transporte">Tempo a ser gasto em tansporte (h/semana)</label>
+      </div>
+      <div class="col-md-4 form-floating">
+        <input type="number" name="tempo_trabalho" class="form-control" id="tempo_trabalho" placeholder="Trabalho" required />
+        <label for="tempo_trabalho">Carga horária de trabalho/estágio (h/semana)</label>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Selecione os semestres/disciplinas já cursados:</label>
+      {% for i in range(1, 11) %}
+        <div class="d-flex justify-content-between align-items-start mb-1">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="semestres_concluidos" value="{{ i }}" id="semestre{{ i }}">
+            <label class="form-check-label" for="semestre{{ i }}">Semestre {{ i }}</label>
+          </div>
+          <button type="button" class="btn btn-outline-secondary btn-sm ms-2" onclick="alternarDisciplinas({{ i }}, this)">
+            <span class="icon">+</span>
+          </button>
+        </div>
+        <div id="disciplinas-semestre-{{ i }}" class="disciplinas-lista d-none"></div>
+      {% endfor %}
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Turnos disponíveis:</label><br />
+      {% for turno in ['matutino', 'vespertino', 'noturno'] %}
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="turnos_livres" value="{{ turno }}" id="{{ turno }}">
+        <label class="form-check-label" for="{{ turno }}">{{ turno.capitalize() }}</label>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Professores a evitar:</label>
+      <input type="text" class="form-control mb-2" id="campo-professor" placeholder="Digite um nome..." autocomplete="off" oninput="filtrarProfessores()" onclick="mostrarListaProfessores()" />
+
+      <!-- onde ficam os selecionados -->
+      <div id="professores-selecionados" class="disciplinas-lista"></div>
+
+      <!-- lista de sugestões -->
+      <div id="sugestoes-professores" class="list-group position-absolute w-100 z-3 d-none" style="max-height: 200px; overflow-y: auto;"></div>
+
+      <!-- input oculto -->
+      <input type="hidden" name="professores_excluidos" id="professores_excluidos" />
+    </div>
+
+
+
+    <!-- Campo oculto com códigos -->
+    <input type="hidden" name="codigos_disciplinas_feitas" id="codigos_disciplinas_feitas" />
+
+    <button type="submit" class="btn btn-primary">Gerar Recomendações</button>
+  </form>
+
+</div>
+
+
+
+<!-- JS -->
+<!-- dentro do <script> -->
+<script>
+  const todosProfessores = [
+  'adriano leal bruni', 'alirio santos de sa', 'andrei bovykin', 'antonio lopes apolinario junior',
+  'arthur cavalcante cunha', 'artur caldas brandao', 'bruno pereira dos santos',
+  'cassio vinicius serafim prazeres', 'claudio nogueira sant anna', 'daniela barreiro claro',
+  'danilo barbosa coimbra', 'debora abdalla santos', 'diogo franco rios',
+  'docente nao informado pelo', 'docente substituto a contratar', 'domingos savio pimentel siqueira',
+  'eduardo santana de almeida', 'euclerio barbosa ornellas filho', 'flavio morais de assis silva',
+  'frederico araujo durao', 'george marconi de araujo lima', 'gilberto de souza leite',
+  'gilberto pereira sassi', 'gustavo bittencourt figueiredo', 'igor chagas santos',
+  'igor sobral muniz', 'islame felipe da costa fernandes', 'ivan do carmo machado',
+  'jair sampaio soares junior', 'karl philips apaza aguero', 'lais do nascimento salvador',
+  'laise cavalcante oliveira', 'leobino nascimento sampaio', 'luciano reboucas de oliveira',
+  'luma da rocha seixas', 'manoel gomes de mendonca neto', 'marineia almeida dos santos',
+  'marlo vieira dos santos e souza', 'matheus alves guimaraes', 'maycon leone maciel peixoto',
+  'nanci araujo bento', 'olivan da silva rabelo', 'paul denis etienne regnier',
+  'rafael augusto de melo', 'raimundo jose de araujo macedo', 'ricardo araujo rios',
+  'rita suzana pitangueira maciel', 'roberto freitas parente', 'robespierre dantas da rocha pita',
+  'rodrigo rocha gomes e souza', 'rubisley de paula lemes', 'sergio gorender',
+  'steffen lewitzka', 'vaninha vieira dos santos', 'vinicius moreira mello'
+];
+
+function mostrarListaProfessores() {
+  filtrarProfessores(); // força exibição completa ao clicar
+}
+
+function filtrarProfessores() {
+  const input = document.getElementById("campo-professor");
+  const lista = document.getElementById("sugestoes-professores");
+  const termo = input.value.toLowerCase().trim();
+
+  lista.innerHTML = "";
+  let filtrados = todosProfessores.filter(p => p.includes(termo));
+
+  if (filtrados.length === 0) {
+    lista.classList.add("d-none");
+    return;
+  }
+
+  filtrados.slice(0, 10).forEach(nome => {
+    const item = document.createElement("button");
+    item.type = "button";
+    item.className = "list-group-item list-group-item-action";
+    item.textContent = nome;
+    item.onclick = () => adicionarProfessor(nome);
+    lista.appendChild(item);
+  });
+
+  lista.classList.remove("d-none");
+}
+
+function adicionarProfessor(nome) {
+  const container = document.getElementById("professores-selecionados");
+  const hiddenInput = document.getElementById("professores_excluidos");
+  const input = document.getElementById("campo-professor");
+
+  let nomes = hiddenInput.value.split(",").map(n => n.trim().toLowerCase()).filter(Boolean);
+  if (nomes.includes(nome)) return;
+
+  // visual
+  const chip = document.createElement("div");
+  chip.className = "professor-chip";
+  chip.textContent = nome;
+
+  const remover = document.createElement("span");
+  remover.textContent = "×";
+  remover.className = "remover";
+  remover.onclick = () => {
+    chip.remove();
+    atualizarListaProfessores();
+  };
+
+  chip.appendChild(remover);
+  container.appendChild(chip);
+
+  input.value = "";
+  document.getElementById("sugestoes-professores").classList.add("d-none");
+
+  atualizarListaProfessores();
+}
+
+function atualizarListaProfessores() {
+  const chips = document.querySelectorAll("#professores-selecionados .professor-chip");
+  const nomes = Array.from(chips).map(c => c.firstChild.textContent.trim().toLowerCase());
+  document.getElementById("professores_excluidos").value = nomes.join(", ");
+}
+
+document.addEventListener("click", function (e) {
+  if (!document.getElementById("sugestoes-professores").contains(e.target) &&
+      e.target.id !== "campo-professor") {
+    document.getElementById("sugestoes-professores").classList.add("d-none");
+  }
+});
+
+const disciplinasPorSemestre = {
+  1: ['cálculo a (MATA02)', 'computador, ética e sociedade (MATA68)', 'introdução à lógica de programação (MATA37)', 'matemática discreta i (MATA42)', 'seminários de introdução ao curso (MATA39)'],
+  2: ['circuitos digitais e arquitetura de computadores (MATC90)', 'economia da inovação (ADME99)', 'estruturas de dados (MATD04)', 'fundamentos de sistemas de informação (MATC92)', 'introdução à lógica matemática (MATC73)'],
+  3: ['álgebra linear a (MATA07)', 'introdução à administração (ADM001)', 'introdução às linguagens formais e teoria da computação (MATC94)', 'programação orientada a objetos (MATA55)', 'sistemas operacionais (MATA58)'],
+  4: ['engenharia de software i (MATA62)', 'métodos estatísticos (MAT236)', 'oficina de leitura e produção de textos (LETA09)', 'redes de computadores i (MATA59)', 'sistemas web (MATC82)'],
+  5: ['banco de dados (MATA60)', 'engenharia de software ii (MATA63)', 'laboratório de programação web (MATC84)', 'métodos quantitativos aplicados à administração (ADM211)', 'paradigmas de linguagens de programação (MATA56)'],
+  6: ['aplicações para dispositivos móveis (MATC89)', 'empreendedores em informática (MAT220)', 'laboratório de banco de dados (MATB09)', 'linguagens para aplicação comercial (MATA76)', 'sistemas de apoio à decisão (ADMF01)'],
+  7: ['inteligência artificial (MATA64)', 'interação humano-computador (MATC72)', 'qualidade de software (MATB02)', 'segurança e auditoria de sistemas de informação (MATC99)', 'sistemas multimídia (MATB19)'],
+  8: [],
+  9: ['tcc bacharelado sistemas de informação i (MATC97)'],
+  10: ['tcc bacharelado sistemas de informação ii (MATC98)']
+};
+function alternarDisciplinas(semestre, botao) {
+  const container = document.getElementById(`disciplinas-semestre-${semestre}`);
+
+  if (container.dataset.loaded === "true") {
+    container.classList.toggle("d-none");
+    botao.querySelector(".icon").textContent = container.classList.contains("d-none") ? "+" : "–";
+    return;
+  }
+
+  const disciplinas = disciplinasPorSemestre[semestre] || [];
+  disciplinas.forEach(nome => {
+    const match = nome.match(/\((.*?)\)/);
+    if (!match) return;
+    const codigo = match[1].trim().toUpperCase();
+    const label = nome.split(' (')[0];
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'disciplina-item shadow-sm border';
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.className = 'form-check-input me-2';
+    checkbox.onchange = function () {
+      const input = document.getElementById('codigos_disciplinas_feitas');
+      let codigos = input.value.split(',').map(c => c.trim().toUpperCase()).filter(Boolean);
+      if (this.checked && !codigos.includes(codigo)) codigos.push(codigo);
+      else if (!this.checked) codigos = codigos.filter(c => c !== codigo);
+      input.value = codigos.join(', ');
+    };
+
+    const text = document.createElement('label');
+    text.className = 'form-check-label';
+    text.textContent = label;
+
+    wrapper.appendChild(checkbox);
+    wrapper.appendChild(text);
+    container.appendChild(wrapper);
+  });
+
+  container.dataset.loaded = "true";
+  container.classList.remove("d-none");
+  botao.querySelector(".icon").textContent = "–";
+}
+
+
+</script>
+</body>
+</html>

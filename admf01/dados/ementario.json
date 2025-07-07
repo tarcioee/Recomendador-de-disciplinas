@@ -1,0 +1,1181 @@
+[
+  {
+    "Nome": "ACC:ONDA SOLIDÁRIA DE INCLUSÃO DIGITAL-TECNOLOGIA A SERVIÇO",
+    "Código": "MATC53",
+    "Departamento": "Computação",
+    "C.H.": "T:90 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Livre",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "ACCS:PROGRAMAÇÃO COMPETITIVA-COMPUTAÇÃO PARA ALUNOS",
+    "Código": "MATF34",
+    "Departamento": "Computação",
+    "C.H.": "T:64 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Livre",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "ACCS:ONDA EDUCATiva, DIGITAL, ECOLOGISTA E PAN-AFRO-INDÍGENA",
+    "Código": "MATF54",
+    "Departamento": "Computação",
+    "C.H.": "T:64 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Livre",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Administração de Redes de Computadores",
+    "Código": "MATC88",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Laboratório",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "20",
+    "Ementa": "Experiência prática em um subconjunto dos seguintes tópicos: configuração da rede (configuração de interfaces de rede, tabelas de roteamento, etc.; configuração de serviços de rede: serviço de nomes, correio eletrônico, sistemas de arquivos distribuídos, serviços de informação de rede distribuídos, como NIS); utilização de ferramentas para controle de segurança em redes; utilização de ferramentas para gerenciamento de redes; implementação de protocolos de comunicação.",
+    "Pré-requisitos obrigatórios": [
+      "Redes de Computadores I"
+    ],
+    "Pré-requisitos recomendados": [],
+    "Semestre": null
+  },
+  {
+    "Nome": "Álgebra Linear A",
+    "Código": "MATA07",
+    "Departamento": "Matemática",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Matrizes e sistemas lineares. Espaços vetoriais. Produto interno. Transformações Lineares. Diagonalização de operadores.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [],
+    "Semestre": 3
+  },
+  {
+    "Nome": "Aplicações para Dispositivos Móveis",
+    "Código": "MATC89",
+    "Departamento": "Computação",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Conceito de mobilidade. Visão geral sobre dispositivos móveis. Tecnologias e ferramentas para desenvolvimento de aplicações móveis. Persistência e Comunicação de Dados. Arquitetura J2ME: Configurations, CLDC e MIDP; Recursos da linguagem: MIDLETS (aplicação / interface), GCF (comunicação), RMS (registro de dados).",
+    "Pré-requisitos obrigatórios": [
+      "Redes de Computadores I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Programação Orientada a Objetos"
+    ],
+    "Semestre": 6
+  },
+  {
+    "Nome": "Banco de Dados",
+    "Código": "MATA60",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Arquitetura geral de um SGBD. Modelo de Entidades e Relacionamentos (ER) e suas extensões. O modelo relacional. Mapeamento de um projeto ER em um projeto relacional. Linguagem de definição e manipulação de dados. Algebra e cálculo relacional. Mapeamento de consultas em álgebra e cálculo relacional em SQL. Normalização. Mecanismo de otimização de consultas. Introdução aos modelos de rede, hierárquico e orientado a objetos. Projeto físico de banco de dados. Gerenciamento de transações e controle de concorrência. Mecanismos de recuperação de falhas. Introdução a banco de dados distribuídos. Aspectos éticos relacionados ao uso de banco de dados. Aspectos éticos relacionados ao uso de banco de dados.",
+    "Pré-requisitos obrigatórios": [
+      "Estruturas de Dados"
+    ],
+    "Pré-requisitos recomendados": [
+      "Matemática Discreta I"
+    ],
+    "Semestre": 5
+  },
+  {
+    "Nome": "Cálculo A",
+    "Código": "MATA02",
+    "Departamento": "Matemática",
+    "C.H.": "T:102 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "As funções polinomiais e as funções racionais; a interpolação por polinômios. O limite e a continuidade de funções reais de uma variável real: principais propriedades. A derivada de funções reais de uma variável real; as propriedades da derivada de tais funções. Os extremantes de funções reais de uma variável real e o polinômio de Taylor; a construção do gráfico de tais funções. A integral de uma função real definida em um intervalo limitado e fechado; principais teoremas. O cálculo de primitivas de funções reais.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 1
+  },
+  {
+    "Nome": "Circuitos Digitais e Arquitetura de Computadores",
+    "Código": "MATC90",
+    "Departamento": "Computação",
+    "C.H.": "T:68 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "A máquina de von Neumann: conceito, arquitetura lógica e funcional; unidades funcionais: cpu, memória; memória cache; dispositivos de e/s e barramento. Tipos de instrução e de endereçamento, fluxo de controle. Memória virtual, instruções de e/s virtuais, instruções virtuais para processamento paralelo. Mecanismos de interrupção. Arquiteturas micro e nanoprogramadas. Introdução a arquiteturas avançadas: pipeline, múltiplas unidades funcionais e máquinas paralelas; processadores RISC e CISC; conceito de máquina virtual; tendências. Noções de avaliação de desempenho e importância da corretude dos dados estatísticos gerados pela avaliação. Impactos sócio-ambientais do ciclo de vida do hardware.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 2
+  },
+  {
+    "Nome": "Computador, Ética e Sociedade",
+    "Código": "MATA68",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:17",
+    "Modalidade": "Disciplina",
+    "Função": "Humanista",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "O papel do computador na sociedade contemporânea: impactos, conseqüências e tendências. Os novos paradigmas da sociedade da informação e seus aspectos econômicos, sociais, políticos, éticos, culturais e educacionais. Ética e a profissão. Direitos e deveres do profissional. Associações, órgãos de classe e seus objetivos.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Seminários em Computação"
+    ],
+    "Semestre": 1
+  },
+  {
+    "Nome": "Comunidades e Ambientes virtuais",
+    "Código": "MATC91",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Web como ferramenta de comunicação. Ambientes virtuais: arquitetura, implementação, aplicações. Comunidades Virtuais, redes sociais, blogs, wikis e afins..",
+    "Pré-requisitos obrigatórios": [
+      "Sistemas Web",
+      "Redes de Computadores I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Contabilidade de Custos",
+    "Código": "FCC024",
+    "Departamento": "Ciências Contábeis",
+    "C.H.": "T:68 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Complementar",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "20",
+    "Ementa": "Aplicação da Contabilidade de Custos nos diferentes tipos de atividade econômica, com ênfase na avaliação de estoques. Estrutura, análise e sistemas de custeamento.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Economia da Inovação",
+    "Código": "ADME99",
+    "Departamento": "Sistemas e Processos Gerenciais",
+    "C.H.": "T:68 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Teorias Econômicas da Tecnologia, as relações entre inovação e competitividade, Gestão da Inovação.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [],
+    "Semestre": 2
+  },
+  {
+    "Nome": "Empreendedores em Informática",
+    "Código": "MAT220",
+    "Departamento": "Computação",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Complementar",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Desenvolvimento da capacidade empreendedora, com ênfase nas áreas com potencial de uso da Informática. O estudo do perfil do empreendedor. O espírito criativo, a geração de idéias, as técnicas de identificação e aproveitamento de oportunidades. A aprendizagem pró-ativa do empreendedor. Os recursos necessários à criação e gerenciamento de um negócio. A elaboração de um Plano de Negócios.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Engenharia de Software I",
+      "Computador, Ética e Sociedade"
+    ],
+    "Semestre": 6
+  },
+  {
+    "Nome": "Engenharia de Software I",
+    "Código": "MATA62",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Introdução a Engenharia de Software. Modelos de processos de desenvolvimento de software. Gerência de projeto. Modelagem e especificação de requisitos de software. Análise de requisitos de software. Verificação e validação de requisitos de software. Noções de métodos formais para especificação e verificação de requisitos. Ferramentas para engenharia de requisitos. Métricas de requisitos de software. Requisitos e prototipagem de interfaces. Aspectos éticos relacionados ao desenvolvimento de software.",
+    "Pré-requisitos obrigatórios": [
+      "Programação Orientada a Objetos"
+    ],
+    "Pré-requisitos recomendados": [
+      "Introdução à Lógica Matemática"
+    ],
+    "Semestre": 4
+  },
+  {
+    "Nome": "Engenharia de Software II",
+    "Código": "MATA63",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Arquitetura de software. Métodos de projeto de software. Padrões e frameworks de software. Experimentação em projetos. Prototipagem de projeto. Trabalhos em equipes. Projeto detalhado e aspectos de implementação. Documentação de projeto. Implementação. Noções sobre qualidade de software. Verificação e validação de software. Manutenção de software.",
+    "Pré-requisitos obrigatórios": [
+      "Engenharia de Software I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 5
+  },
+  {
+    "Nome": "Estruturas de Dados",
+    "Código": "MATD04",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Introdução à análise de algoritmos. Tipos Abstratos de Dados. Estruturas de dados fundamnetais: listas, filas, pilhas, árvores e heaps. Algoritmos de busca em memória principal. Dispositivos de aramazenamento secundário. Arquivos com organização sequencial (busca sequencial, busca por interpolação, busca binária). Arquivos com organização direta ( funções de hasting, métodos de resolução de colisão). Arquivos com organização em árvore (árvores-B e suas variações). Ordenação externa.",
+    "Pré-requisitos obrigatórios": [
+      "Introdução à Lógica de Programação",
+      "Matemática Discreta I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 2
+  },
+  {
+    "Nome": "Fundamentos de Sistemas de Informação",
+    "Código": "MATC92",
+    "Departamento": "Computação",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Bases conceituais e filosóficas da área de Sistemas de Informação. Os conceitos, objetivos, funções e componentes dos sistemas de informação. As dimensões tecnológica, organizacional e humana dos sistemas de informação. Os tipos de sistemas de informação. Areas de pesquisa em Sistemas de Informação. Conhecimento científico e metodologia de pesquisa em Sistemas de Informação.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [],
+    "Semestre": 2
+  },
+  {
+    "Nome": "Fundamentos de Economia",
+    "Código": "ECO001",
+    "Departamento": "Teoria Econômica",
+    "C.H.": "T:51P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Complementar",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "O curso trata de noções sobre os principais conceitos da teoria econômica em seus viés microeconômico e macroeconômico, além de temas específicos como moeda, Estado e relações externas.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Fundamentos de Sistemas Distribuídos",
+    "Código": "MATA88",
+    "Departamento": "Computação",
+    "C.H.": "T:51P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "25",
+    "Ementa": "Caracterização de sistemas distribuídos. Modelos de sistemas distribuídos. Arquiteturas Cliente- Servidor e Par-a-Par. Comunicação entre processos (mecanismos de troca de mensagens, RPC, RMI, Espaço de Tuplas, Eventos, Introdução à Comunicação em Grupo, comunicação via memória compartilhada). Serviços distribuídos de arquivos. Serviços de resolução de nomes. Agentes Móveis. Introdução à Computação Ubíqua. Exemplos de sistemas e plataformas distribuídas.",
+    "Pré-requisitos obrigatórios": [
+      "Sistemas Operacionais",
+      "Redes de Computadores I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Estruturas de Dados"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Inteligência Artificial",
+    "Código": "MATA64",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Fundamentos. Agentes inteligentes. Resolução de problemas por busca. Representação de conhecimento: lógica, regras, redes semânticas, quadros (frames). Técnicas de raciocínio automático. Programação de agentes inteligentes. Introdução à IA Conexionista. Noções de IA Distribuída, planejamento, tratamento de incertezas, aprendizado de máquina. Aspectos éticos relacionados à inteligência artificial.",
+    "Pré-requisitos obrigatórios": [
+      "Introdução à Lógica Matemática",
+      "Estruturas de Dados"
+    ],
+    "Pré-requisitos recomendados": [
+      "Introdução as Ling. Formais e à teoria da computação",
+      "Teoria da Computação"
+    ],
+    "Semestre": 7
+  },
+  {
+    "Nome": "Interação Humano-Computador",
+    "Código": "MATC72",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Comunicação usuário-sistema. Comunicação projetista usuário. Engenharia cognitiva e semiótica de sistemas interativos. Estilos e paradigmas de interação: interfaces gráficas; manipulação direta, ícones e linguagens visuais. Modelagem de interfaces: cenarização; modelos de tarefas; modelos de usuário; modelos de interação. Concretização do projeto de interface: storyboarding e prototipação de interfaces; ferramentas de apoio a construção de interfaces. Avaliação de sistemas interativos: inspeção e testes com usuários; aspectos éticos na relação com os usuários. Acessibilidade: interfaces para dispositivos móveis; usabilidade universal.",
+    "Pré-requisitos obrigatórios": [
+      "Engenharia de Software I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 7
+  },
+  {
+    "Nome": "Introdução à Administração",
+    "Código": "ADM001",
+    "Departamento": "Estudos Organizacionais",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Conceitos, natureza e importância da Administração, função social da Administração, áreas de atuação administrativa, função do administrador.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 3
+  },
+  {
+    "Nome": "INTRODUÇÃO A ENGENHARIA DE AGRIMENSURA E CARTOGRÁFICA",
+    "Código": "ENGJ18",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:17",
+    "Modalidade": "Disciplina",
+    "Função": "Suplementar",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Regime didático do curso. Engenharia de Agrimensura e Cartográfica: definições e finalidades. O sistema CONFEA/CREAs. Grade curricular, plano de estudos, matrícula, Centro Acadêmico, Diretório Central dos Estudantes, UEE, UNE e Empresa Júnior de Eng. Agrimensura e Cartográfica, Laboratórios. Aspectos conceituais e práticos da Engenharia de Agrimensura e Cartográfica. Instrumentos empregados no levantamento de dados topográficos e/ou geodésicos: Apresentações e discussões temáticas na Engenharia de Agrimensura e Cartográfica. Topografia, Cartografia, Geodésia, Fotogramentria, Sensoriamento remoto e tratamento de imagens, Geoprocessamento, SIG: Sistemas de Informações Geográficas, Astronomia de posição e softwares para processamento e desenho de dados topográficos e/ou geodésicos, Cadastro Territorial.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Introdução à Lógica de Programação",
+    "Código": "MATA37",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Desenvolvimento de algoritmos. Refinamento sucessivo. Noções de especificação e correção de algoritmos. Construção de programas aplicando conceitos de construção de algoritmos:\n\nvariáveis, constantes, operadores aritméticos e expressões, estruturas de controle (atribuição, seqüência, seleção, repetição, recursão). Parâmetros. Princípios de programação estruturada e modular. Documentação de programas. Teste de programas. Análise de resultados. A linguagem de programação utilizada será Pascal.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 1
+  },
+  {
+    "Nome": "Introdução a Lógica Matemática",
+    "Código": "MATC73",
+    "Departamento": "Matemática",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Técnicas de demonstração. Lógica Proposicional: sintaxe, semântica, formas normais conjuntiva e disjuntiva, método dedutivo da resolução. Lógica de Primeira Ordem: sintaxe, semântica (conceito de interpretação), formalizações de sentenças da língua natural, o método dedutivo da Resolução. Propriedades da lógica clássica. Aplicações da lógica.",
+    "Pré-requisitos obrigatórios": [
+      "Matemática Discreta I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Estruturas de Dados"
+    ],
+    "Semestre": 2
+  },
+  {
+    "Nome": "Introdução a Web Semântica",
+    "Código": "MATC93",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:17",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Conceito de Web semântica. RDF, RDF-Schema. Ontologias. Linguagens para Criação de Ontologias. Linguagem para a definição de regras. Editores de ontologia. Serviços Web. Serviços Web Semânticos.",
+    "Pré-requisitos obrigatórios": [
+      "Banco de Dados",
+      "Sistemas Web",
+      "Redes de Computadores I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Introdução as Linguagens Formais e Teoria da Computação",
+    "Código": "MATC94",
+    "Departamento": "Computação",
+    "C.H.": "T:68 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Conceito de linguagem formal. Hierarquia de Chomsky. Linguagens regulares e Livres de Contexto. Expressões regulares. Autômatos finitos, autômatos de pilha. Gramáticas livres de contexto. Noções de análise léxica e sintática de linguagens de programação. Máquinas de Turing. Linguagens recursivamente enumeráveis e recursivas. Noções de decidiblidade. Exemplos de problemas decidíveis e indecidíveis relativos às linguagens da hierarquia de Chomsky. Máquina de Turing como conceito formal de algoritmo. O problema da Parada. A tese de Church. Noções de Teoria de complexidade.",
+    "Pré-requisitos obrigatórios": [
+      "Matemática Discreta I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Estruturas de Dados",
+      "Introdução à Lógica Matemática"
+    ],
+    "Semestre": 3
+  },
+  {
+    "Nome": "Introdução ao Marketing",
+    "Código": "ADM241",
+    "Departamento": "Sistemas e Processos Gerenciais",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Complementar",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Estudo da importância do Marketing, suas funções e seus sistemas de informação, objetivando preparar profissionais executivos para atuar de forma eficiente e eficaz nas organizações.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Laboratório de Banco de Dados",
+    "Código": "MATB09",
+    "Departamento": "Computação",
+    "C.H.": "T:0 P:51",
+    "Modalidade": "Laboratório",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "20",
+    "Ementa": "Desenvolvimento de (pelo menos) uma aplicação de banco de dados. Utilização de ferramenta CASE (Computer Aided Software Engineering). Utilização de SGBD existente.",
+    "Pré-requisitos obrigatórios": [
+      "Banco de Dados"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 6
+  },
+  {
+    "Nome": "Laboratório de Informática Médica",
+    "Código": "MATC95",
+    "Departamento": "Computação",
+    "C.H.": "T:0 P:51",
+    "Modalidade": "Laboratório",
+    "Função": "Complementar",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "20",
+    "Ementa": "Desenvolvimento de aplicações para consultórios e organizações de saúde.",
+    "Pré-requisitos obrigatórios": [
+      "Sistemas Web"
+    ],
+    "Pré-requisitos recomendados": [
+      "Informática em Saúde",
+      "Programação Orientada a Objetos"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Laboratório de Inteligência Artificial",
+    "Código": "MATB16",
+    "Departamento": "Computação",
+    "C.H.": "T:0 P:51",
+    "Modalidade": "Laboratório",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "20",
+    "Ementa": "Desenvolvimento de projeto utilizando linguagem de programação lógica e/ou funcional e/ou ferramentas para desenvolvimento de sistemas especialistas e/ou desenvolvimento de redes neurais.",
+    "Pré-requisitos obrigatórios": [
+      "Inteligência Artificial"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Laboratório de Programação I",
+    "Código": "MATC30",
+    "Departamento": "Computação",
+    "C.H.": "T:0 P:51",
+    "Modalidade": "Laboratório",
+    "Função": "Básica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "20",
+    "Ementa": "Estudo das linguagens C e C++ através da implementação de programas nestas linguagens.",
+    "Pré-requisitos obrigatórios": [
+      "Programação de Software Básico"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Laboratório de Programação Web",
+    "Código": "MATC84",
+    "Departamento": "Computação",
+    "C.H.": "T:0 P:51",
+    "Modalidade": "Laboratório",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "20",
+    "Ementa": "Estudo das linguagens de programação para Web através da implementação de programas nestas linguagens.",
+    "Pré-requisitos obrigatórios": [
+      "Programação Orientada a Objetos"
+    ],
+    "Pré-requisitos recomendados": [],
+    "Semestre": 5
+  },
+  {
+    "Nome": "Leitura de Textos em Língua Inglesa",
+    "Código": "LETA15",
+    "Departamento": "Letras Germânicas",
+    "C.H.": "T:68 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Suplementar",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "20",
+    "Ementa": "Aplicação de estratégias específicas que levem ao nível inicial de compreensão de textos de natureza diversa em língua inglesa.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Leitura de Textos Acadêmicos em Língua Inglesa",
+    "Código": "LETC84",
+    "Departamento": "Letras Germânicas",
+    "C.H.": "T:68 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Suplementar",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "20",
+    "Ementa": "Aplicação de estratégias específicas que levem à compreensão de textos acadêmicos em língua inglesa.",
+    "Pré-requisitos obrigatórios": [
+      "Leitura de Textos em Língua Inglesa"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "LÓGICA PARA COMPUTAÇÃO",
+    "Código": "MATA47",
+    "Departamento": "Computação",
+    "C.H.": "T:68 P:51",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "5",
+    "Ementa": "Técnicas de demonstração. Conceito de Lógica: sintaxe, semântica. Propriedades da lógica clássica. Lógica Proposicional e de Primeira Ordem. Métodos dedutivos como: axiomático, dedução natural, cálculo de sequentes, tableaux, resolução. Conceito de correção e completeza. Aplicações da lógica.",
+    "Pré-requisitos obrigatórios": [
+      "Matemática Discreta I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Linguagens para Aplicação Comercial",
+    "Código": "MATA76",
+    "Departamento": "Computação",
+    "C.H.": "T:0 P:51",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Estudo de uma ou mais linguagens de aplicação comercial.",
+    "Pré-requisitos obrigatórios": [
+      "Estruturas de Dados e Algoritmos I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 6
+  },
+  {
+    "Nome": "LIBRAS-LÍNGUA BRASILEIRA DE SINAIS",
+    "Código": "LETE46",
+    "Departamento": "Letras",
+    "C.H.": "T:17 P:17",
+    "Modalidade": "Disciplina",
+    "Função": "Suplementar",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "5",
+    "Ementa": "Breve estudo sobre as características biológicas, socioculturais e linguísticas do surdo. Breve estudo sobre o desenvolvimento linguístico do surdo, de sua inserção na sociedade e dos aspectos educacionais envolvidos em sua formação. Práticas das estruturas elementares de LIBRAS.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Métodos Estatísticos",
+    "Código": "MAT236",
+    "Departamento": "Estatística",
+    "C.H.": "T:68 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Aspectos preliminares do trabalho estatístico. Séries estatísticas e representação gráfica. Médias. Separatrizes. Moda. Principais medidas de dispersão. Conceito, teoremas e leis de probabilidades. Distribuições de probabilidades. Distribuições amostrais. Intervalos de confiança. Teste de hipótese. Correlação e regressão linear simples. Ajustamento de funções matemáticas pelo método dos mínimos quadrados.",
+    "Pré-requisitos obrigatórios": [
+      "Calculo A",
+      "Algebra Linear A"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 4
+  },
+  {
+    "Nome": "Matemática Discreta I",
+    "Código": "MATA42",
+    "Departamento": "Matemática",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Relações. Relações de equivalência. Partição. Representação. Funções. Recursão. Conjuntos finitos e infinitos. Cardinalidade. Enumerabilidade. Diagonalização de Cantor. Princípio da indução. Análise Combinatória: Enumeração por recursão; Contagem; Arranjo; Permutação; Combinação simples e com repetição.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 1
+  },
+  {
+    "Nome": "Métodos Quantitativos aplicados a administração",
+    "Código": "ADM211",
+    "Departamento": "Sistemas e Processos Gerenciais",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Complementar",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Preparação Científica de decisões. Determinação racional de soluções mais eficazes ou mais econômicas através de métodos estatísticos e/ou matemáticos. Formulação de modelos. Programação inteira. Programação dinâmica. Otimização não linear. Modelos de rede. Teoria das Filas. Simulação. Análise da decisão.",
+    "Pré-requisitos obrigatórios": [
+      "Introdução à Administração",
+      "Métodos Estatísticos"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 5
+  },
+  {
+    "Nome": "Oficina de Leitura e Produção de Textos",
+    "Código": "LETA09",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Suplementar",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Estratégias de leitura e interpretação de textos de tipologia e gêneros distintos, considerando-se as modalidades oral e escrita.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [],
+    "Semestre": 4
+  },
+  {
+    "Nome": "Organização, Gerenciamento e Recuperação da Informação.",
+    "Código": "MATC96",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:17",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Indexação e representação dos recursos informacionais visando a sua recuperação; abordagem de busca por palavra-chave, do ponto de vista da álgebra booleana; linguagem natural e a recuperação da informação; busca de informação na Web.",
+    "Pré-requisitos obrigatórios": [
+      "Banco de Dados",
+      "Sistemas Web"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Paradigmas de Linguagens de Programação",
+    "Código": "MATA56",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Estudo do paradigma funcional: conceito de programação funcional; resolução e implementação de problemas numa linguagem funcional; modelo de implementação. Estudo do paradigma lógico: conceito de programação lógica; resolução e implementação de problemas numa linguagem lógica; modelo de implementação. Uma análise comparativa geral entre os paradigmas imperativo, orientado a objetos, funcional, lógico, concorrente.",
+    "Pré-requisitos obrigatórios": [
+      "Programação Orientada a Objetos"
+    ],
+    "Pré-requisitos recomendados": [
+      "Engenharia de Software I"
+    ],
+    "Semestre": 5
+  },
+  {
+    "Nome": "Programação funcional",
+    "Código": "MATA77",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "25",
+    "Ementa": "Expressões, valores, funções e tipos. Programação com listas. Polimorfismo e funções de alta ordem. Avaliação de expressões, redução e conversão (estrita e preguiçosa). Programação com tipos algébricos. Módulos e tipos abstratos de dados. Indução, invariantes e provas de propriedade. Modelos de custo simples para programas funcionais; complexidade de tempo e espaço.",
+    "Pré-requisitos obrigatórios": [
+      "Programação Orientada a Objetos"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Programação de Software Básico",
+    "Código": "MATA49",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "25",
+    "Ementa": "Programação em linguagem de montagem. Formato e classificação de instruções. Conjuntos de instruções e modos de endereçamento. Manipulação de pilhas. Subrotinas: tipos, características e passagem de parâmetros. Interrupções de software. Recursos de arquitetura para técnicas de programação. Montagem e ligação. Nesta disciplina serão introduzidos conceitos de implementação de baixo nível utilizando as linguagens Ce Assembler.",
+    "Pré-requisitos obrigatórios": [
+      "Circuitos Digitais e Arquitetura de Computadores",
+      "Estruturas de Dados"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Programação Orientada a Objetos",
+    "Código": "MATA55",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Conceitos de Orientação a Objetos. Programação orientada a objetos: Implementação de classes, herança, polimorfismo, comunicação e associação. Conceito de reuso. Exemplos de implementação dos conceitos estudados em mais de uma linguagem orientada a objeto. Trabalhos práticos em Java e/ou outras linguagens.",
+    "Pré-requisitos obrigatórios": [
+      "Estruturas de Dados"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 3
+  },
+  {
+    "Nome": "Qualidade de Software",
+    "Código": "MATB02",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Planejamento de projeto de software. Gerenciamento de risco. Escalonamento de Projeto. Garantia de qualidade de software. Métricas de qualidade de software. Avaliação do produto e Processo de software (normas de qualidade de produtos e de processo de software). Modelos de melhoria de processo de software. Gerenciamento de configuração de software.",
+    "Pré-requisitos obrigatórios": [
+      "Engenharia de Software II"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 7
+  },
+  {
+    "Nome": "Redes de Computadores I",
+    "Código": "MATA59",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Introdução a redes de computadores: terminologia, topologias, tipos de redes, software e hardware de rede, arquiteturas e modelos de referência. Detalhamento de cada uma das camadas: física, enlace, subcamada de acesso ao meio, rede, transporte, sessão, apresentação e aplicação, considerando-se diferentes tipos de redes. Introdução a serviços de redes (serviço de nomes, correio eletrônico, sistemas de arquivos distribuídos). Segurança em redes. Aspectos éticos relacionados à gerência e uso de redes.",
+    "Pré-requisitos obrigatórios": [
+      "Circuitos Digitais e Arquitetura de Computadores"
+    ],
+    "Pré-requisitos recomendados": [
+      "Sistemas Operacionais"
+    ],
+    "Semestre": 4
+  },
+  {
+    "Nome": "Segurança e Auditoria de Sistemas de Informação",
+    "Código": "MATC99",
+    "Departamento": "Computação",
+    "C.H.": "T:68 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Os conceitos e os tipos de ameaças, riscos e vulnerabilidades dos sistemas de informação. O conceito e os objetivos da segurança de informações. Segurança de dados. Segurança física. Criptografia. Autenticação e controle de acesso. Certificados e assinaturas digitais. Detecção de intrusão. O conceito e os objetivos da auditoria de sistemas de informação. Técnicas de auditoria em sistemas de informação e Web. Softwares de auditoria. Estrutura da função de auditoria de sistemas de informação nas organizações.",
+    "Pré-requisitos obrigatórios": [
+      "Sistemas de Apoio a Decisão"
+    ],
+    "Pré-requisitos recomendados": [
+      "Sistemas Operacionais",
+      "Redes de Computadores I"
+    ],
+    "Semestre": 7
+  },
+  {
+    "Nome": "SEMINÁRIOS CIENTÍFICOS",
+    "Código": "MATE64",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Seminários diversos que abordam temas de pesquisa em Ciência da Computação. Os seminaristas oidem ser professores convidados ou alunos da pós-graduação.",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Seminários de Introdução ao Curso",
+    "Código": "MATA39",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Seminário",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Introdução aos sistemas de computação. História da computação. Temas relacionados à aplicação da computação em outras áreas. Aspectos éticos relacionados ao uso da computação em atividades humanas. Temas relacionados à integração do estudante na vida acadêmica (estrutura e organização da universidade, o papel do estudante em atividades de extensão e pesquisa, atividades extracurriculares, etc.).",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 1
+  },
+  {
+    "Nome": "Sistemas de Apoio à Decisão",
+    "Código": "ADMF01",
+    "Departamento": "Sistemas e Processos Gerenciais",
+    "C.H.": "T:85 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Básica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "O conceito de SIG; Metodologias, técnicas e ferramentas de desenvolvimento de sistemas de informações gerenciais; Avaliação e melhoria de sistemas de informação gerencial. Sistemas de informação de suporte ao processo decisório tático e estratégico (SAD, SIG, EIS). Tecnologias de informação aplicadas a sistemas de informação de suporte ao processo decisório estratégico e tático. Desenvolvimento de sistemas de informação de suporte ao processo decisório tático e estratégico. Características e funcionalidades de sistemas de informação de nível tático e estratégico nas organizações.",
+    "Pré-requisitos obrigatórios": [
+      "Métodos Quantitativos aplicados à Administração"
+    ],
+    "Pré-requisitos recomendados": [],
+    "Semestre": 6
+  },
+  {
+    "Nome": "SISTEMAS DE TEMPO REAL",
+    "Código": "MATA82",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Tecnológica",
+    "Função": "Básica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Características e propriedades dos sistemas de tempo-real; Tipos de sistemas; Programação concorrente; Sincronização e comunicação; Fontes de imprevisibilidade nos sistemas de tempo-real ( interrupções, sincronismo, ambientes de execução, etc.); Aspectos de confiabilidade e tolerância a falhas; Modelos de construção de sistemas de tempo-real (orientados a tempo/evento); Técnicas de escalonamento (execução cíclica, prioridades fixas e variáveis) ; Técnicas de análise temporal (baseadas em tempo de resposta ou utilização de processador).",
+    "Pré-requisitos obrigatórios": [
+      "Introdução à Lógica de Programação"
+    ],
+    "Pré-requisitos recomendados": [],
+    "Semestre": null
+  },
+  {
+    "Nome": "Sistemas Multimídia",
+    "Código": "MATB19",
+    "Departamento": "Computação",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Motivação, objetivos e fundamentos da tecnologia multimídia. Tipos de mídia (texto, áudio, vídeo). Características, representação e codificação de informação multimídia. Padrões de compressão de informações. Comunicação multimídia. Transmissão de áudio e vídeo digital. Qualidade de serviço. Arquiteturas e ambientes computacionais para multimídia. Tecnologias de programação e ferramentas de autoria. Aplicações multimídia: vídeo sob demanda, videoconferência, ambientes virtuais colaborativos. Multimídia na Web. Aplicações (jogos, educação, etc).",
+    "Pré-requisitos obrigatórios": [
+      "Programação Orientada a Objetos"
+    ],
+    "Pré-requisitos recomendados": [
+      "Engenharia de Software II",
+      "Sistemas Operacionais",
+      "Redes de Computadores I"
+    ],
+    "Semestre": 7
+  },
+  {
+    "Nome": "Sistemas Operacionais",
+    "Código": "MATA58",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:34",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Estruturas de sistemas operacionais. Sistemas operacionais centralizados: gerenciamento de processos; mecanismos de comunicação entre processos; sincronização de processos; mecanismos de entrada e saída; gerenciamento de memória; sistemas de arquivos; proteção e segurança. Introdução a sistemas distribuídos. Estudos de caso de sistemas operacionais existentes. Aspectos éticos relacionados à segurança de sistemas.",
+    "Pré-requisitos obrigatórios": [
+      "Circuitos Digitais e Arquitetura de Computadores"
+    ],
+    "Pré-requisitos recomendados": [
+      "Estruturas de Dados"
+    ],
+    "Semestre": 3
+  },
+  {
+    "Nome": "Sistemas Web",
+    "Código": "MATC82",
+    "Departamento": "Computação",
+    "C.H.": "T:68P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "Hipertexto. Hipermídia. Modelagem conceitual: nós, âncoras e elos. Hipermídia na Web. Introdução aos Sistemas Web: conceitos, modelos, arquitetura e tecnologias. Linguagens de marcação de conteúdo. HTML, XHTML, DHTML, XML.",
+    "Pré-requisitos obrigatórios": [
+      "Fundamentos de Sistemas de Informação",
+      "Sistemas Operacionais"
+    ],
+    "Pré-requisitos recomendados": [],
+    "Semestre": 4
+  },
+  {
+    "Nome": "Telemedicina e Imagens Médicas",
+    "Código": "MATD01",
+    "Departamento": "Computação",
+    "C.H.": "T:34 P:17",
+    "Modalidade": "Disciplina",
+    "Função": "Complementar",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Imagens Digitais. Imagens Médicas. Telemedicina. Teleradiologia. Telecirurgia. Telepatologia. Sistemas de Arquivamento e Comunicação de Imagens PACS. Padrões de Comunicação de Imagens Médicas O Padrão DICOM. Trabalho cooperativo. Aplicações e tendências na área de telemedicina.",
+    "Pré-requisitos obrigatórios": [
+      "Sistemas Multimídia",
+      "Redes de Computadores I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Sistemas Web"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Tópicos em Banco de Dados I",
+    "Código": "MATE04",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Abordagem de temas atuais, circunstanciais e/ou inovadores de problemas relacionados à área de Banco de Dados. Trata-se de disciplina sem ementa permanente. É adequada para introdução de novos cursos não previstos.",
+    "Pré-requisitos obrigatórios": [
+      "Banco de Dados"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "TÓPICOS EM COMPUTAÇÃO VISUAL IV",
+    "Código": "MATE22",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Abordagens de temas atuais, circunstancuais e/ou inovadores de problemas relacionados à área de Computação Visual. Trata-se de disciplina sem ementa permanente. É adequada para a introdução de novos cursos não previstos.",
+    "Pré-requisitos obrigatórios": [
+      "Computação Visual"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Tópicos em Sistemas de Informação",
+    "Código": "MATD02",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Livre",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "Tópicos em Sistemas de Informação e web I",
+    "Código": "MATE85",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Disciplina",
+    "Função": "Tecnológica",
+    "Natureza": "Optativa",
+    "Módulo de alunos": "45",
+    "Ementa": "Livre",
+    "Pré-requisitos obrigatórios": [
+      "Não tem"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": null
+  },
+  {
+    "Nome": "TCC BACHARELADO SISTEMAS DE INFORMAÇÃO I",
+    "Código": "MATC97",
+    "Departamento": "Computação",
+    "C.H.": "T:51 P:0",
+    "Modalidade": "Trabalho de Conclusão de Curso",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "O aluno desenvolverá uma proposta de trabalho final em uma área da computação de seu interesse, orientado por um professor, e fará uma defesa da proposta apresentando o projeto escrito da mesma.",
+    "Pré-requisitos obrigatórios": [
+      "Oficina de Leitura e Produção de Textos"
+    ],
+    "Pré-requisitos recomendados": [
+      "Qualidade de Software",
+      "Inteligência Artificial em SI",
+      "Sistemas Operacionais",
+      "Laboratório de Banco de Dados",
+      "Aplicações para Dispositivos Móveis",
+      "Sistemas Multimídia",
+      "Interação humano Computador",
+      "Sistemas Web",
+      "Sistemas de Apoio a Decisão"
+    ],
+    "Semestre": 9
+  },
+  {
+    "Nome": "TCC BACHARELADO SISTEMAS DE INFORMAÇÃO II",
+    "Código": "MATC98",
+    "Departamento": "Computação",
+    "C.H.": "T:68 P:68",
+    "Modalidade": "Trabalho de Conclusão de Curso",
+    "Função": "Tecnológica",
+    "Natureza": "Obrigatória",
+    "Módulo de alunos": "45",
+    "Ementa": "O aluno desenvolverá o trabalho proposto anteriormente na disciplina Trabalho de Conclusão de Curso BSI I e apresentará uma monografia, fazendo a defesa final do trabalho.",
+    "Pré-requisitos obrigatórios": [
+      "TCC BACHARELADO SISTEMAS DE INFORMAÇÃO I"
+    ],
+    "Pré-requisitos recomendados": [
+      "Não tem"
+    ],
+    "Semestre": 10
+  }
+]

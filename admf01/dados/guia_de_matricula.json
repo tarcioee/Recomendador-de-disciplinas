@@ -1,0 +1,1728 @@
+[
+  {
+    "Código": "ADM001",
+    "Nome": "INTRODUCÃO À ADMINISTRACAO",
+    "Vagas": 50,
+    "Turmas": [
+      {
+        "Turma": "T05",
+        "Professor": [
+          "Docente não informado pelo"
+        ],
+        "Und-Sala": [
+          "ADM-0000"
+        ],
+        "Horário": [
+          "SEX 18:30 às 22:10"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "ADM170",
+    "Nome": "ADMINISTRACAO CONTABIL I",
+    "Vagas": 2,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Adriano Leal Bruni"
+        ],
+        "Und-Sala": [
+          "ADM-0000"
+        ],
+        "Horário": [
+          "TER 10:40 às 12:30",
+          "QUI 10:40 às 12:30"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "ADM211",
+    "Nome": "MÉTODOS QUANTITATIVOS APLICADOS À ADMINISTRAÇÃO",
+    "Vagas": 40,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Jair Sampaio Soares Junior"
+        ],
+        "Und-Sala": [
+          "ADM-0000"
+        ],
+        "Horário": [
+          "SEX 20:20 às 21:15",
+          "SEX 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "ADME99",
+    "Nome": "ECONOMIA DA INOVAÇÃO",
+    "Vagas": 20,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Olivan da Silva Rabelo"
+        ],
+        "Und-Sala": [
+          "ADM-0000"
+        ],
+        "Horário": [
+          "SEG 18:30 às 22:10"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "ADMF01",
+    "Nome": "SISTEMAS DE APOIO À DECISÃO",
+    "Vagas": 35,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Jair Sampaio Soares Junior"
+        ],
+        "Und-Sala": [
+          "ADM-0000"
+        ],
+        "Horário": [
+          "SEG 18:30 às 22:10",
+          "CMB 00:00 às 00:00"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "ECOB40",
+    "Nome": "INTRODUÇÃO À ECONOΜΙΑ",
+    "Vagas": 20,
+    "Turmas": [
+      {
+        "Turma": "T17",
+        "Professor": [
+          "Docente Substituto a Contratar"
+        ],
+        "Und-Sala": [
+          "PAC-0000"
+        ],
+        "Horário": [
+          "SEX 08:50 às 12:30"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "ENGJ18",
+    "Nome": "INTRODUÇÃO A ENGENHARIA DE AGRIMENSURA E CARTOGRÁFICA",
+    "Vagas": 3,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Artur Caldas Brandao"
+        ],
+        "Und-Sala": [
+          "ENG-0000"
+        ],
+        "Horário": [
+          "SAB 11:35 às 12:30",
+          "SAB 08:50 às 11:35"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "FCC024",
+    "Nome": "CONTABILIDADE DE CUSTOS",
+    "Vagas": 6,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Marineia Almeida dos Santos"
+        ],
+        "Und-Sala": [
+          "PAC-0000"
+        ],
+        "Horário": [
+          "TER 07:00 às 08:50",
+          "QUI 07:00 às 08:50"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "LETC84",
+    "Nome": "LEITURA DE TEXTOS ACADÊMICOS EM LÍNGUA INGLESA",
+    "Vagas": 5,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Domingos Savio Pimentel Siqueira"
+        ],
+        "Und-Sala": [
+          "PF3-205"
+        ],
+        "Horário": [
+          "TER 10:40 às 12:30",
+          "QUI 10:40 às 12:30"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "LETE46",
+    "Nome": "LIBRAS-LÍNGUA BRASILEIRA DE SINAIS",
+    "Vagas": 4,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Nanci Araújo Bento"
+        ],
+        "Und-Sala": [
+          "PF3-0000"
+        ],
+        "Horário": [
+          "QUA 21:15 às 22:10",
+          "QUA 20:20 às 21:15"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MAT220",
+    "Nome": "EMPREENDEDORES EM INFORMATICA",
+    "Vagas": 20,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Laise Cavalcante Oliveira"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUI 18:30 às 20:20",
+          "TER 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MAT236",
+    "Nome": "MÉTODOS ESTATÍSTICOS",
+    "Vagas": 20,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Gilberto Pereira Sassi"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "SEG 18:30 às 20:20",
+          "QUA 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MAT700",
+    "Nome": "TOPICOS ESPECIAIS EM MECATRONICA II",
+    "Vagas": 2,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Alirio Santos de Sa"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "TER 13:55 às 16:40"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA02",
+    "Nome": "CÁLCULO A",
+    "Vagas": 45,
+    "Turmas": [
+      {
+        "Turma": "T18",
+        "Professor": [
+          "Igor Chagas Santos"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "SEG 20:20 às 22:10",
+          "QUA 20:20 às 22:10",
+          "SEX 20:20 às 22:10"
+        ]
+      },
+      {
+        "Turma": "T19",
+        "Professor": [
+          "Arthur Cavalcante Cunha"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "SEG 20:20 às 22:10",
+          "QUA 20:20 às 22:10",
+          "SEX 20:20 às 22:10"
+        ]
+      },
+      {
+        "Turma": "T20",
+        "Professor": [
+          "Diogo Franco Rios"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "SEG 20:20 às 22:10",
+          "QUA 20:20 às 22:10",
+          "SEX 20:20 às 22:10"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA07",
+    "Nome": "ÁLGEBRA LINEAR A",
+    "Vagas": 45,
+    "Turmas": [
+      {
+        "Turma": "T11",
+        "Professor": [
+          "Vinicius Moreira Mello"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "TER 18:30 às 20:20",
+          "QUI 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA37",
+    "Nome": "INTRODUÇÃO À LÓGICA DE PROGRAMAÇÃO",
+    "Vagas": 50,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Karl Philips Apaza Aguero"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUI 20:20 às 22:10",
+          "TER 20:20 às 22:10"
+        ]
+      },
+      {
+        "Turma": "T05",
+        "Professor": [
+          "Karl Philips Apaza Aguero"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUI 18:30 às 20:20",
+          "TER 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA39",
+    "Nome": "SEMINÁRIOS DE INTRODUÇÃO AO CURSO",
+    "Vagas": 55,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Igor Sobral Muniz"
+        ],
+        "Und-Sala": [
+          "PAF-0000",
+          "ICC-0000"
+        ],
+        "Horário": [
+          "SEG 18:30 às 20:20",
+          "CMB 00:00 às 00:00"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA42",
+    "Nome": "MATEMÁTICA DISCRETA I",
+    "Vagas": 50,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Andrei Bovykin"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUI 18:30 às 20:20",
+          "TER 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA47",
+    "Nome": "LÓGICA PARA COMPUTAÇÃO",
+    "Vagas": 10,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Steffen Lewitzka"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "TER 18:30 às 20:20",
+          "QUI 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA49",
+    "Nome": "PROGRAMAÇÃO DE SOFTWARE BÁSICO",
+    "Vagas": 15,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Euclerio Barbosa Ornellas Filho"
+        ],
+        "Und-Sala": [
+          "PAF-0000",
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUI 18:30 às 20:20",
+          "TER 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA55",
+    "Nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+    "Vagas": 45,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Rodrigo Rocha Gomes e Souza"
+        ],
+        "Und-Sala": [
+          "PAF-0000",
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUA 18:30 às 20:20",
+          "SEG 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA56",
+    "Nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO",
+    "Vagas": 50,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Manoel Gomes de Mendonca Neto"
+        ],
+        "Und-Sala": [
+          "PAF-0000",
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUA 18:30 às 20:20",
+          "SEG 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA58",
+    "Nome": "SISTEMAS OPERACIONAIS",
+    "Vagas": 45,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Docente Substituto a Contratar"
+        ],
+        "Und-Sala": [
+          "ICC-0000",
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUI 20:20 às 22:10",
+          "TER 20:20 às 22:10"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA59",
+    "Nome": "REDES DE COMPUTADORES I",
+    "Vagas": 20,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Bruno Pereira dos Santos"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUI 18:30 às 20:20",
+          "TER 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA60",
+    "Nome": "BANCO DE DADOS",
+    "Vagas": 35,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Robespierre Dantas da Rocha Pita"
+        ],
+        "Und-Sala": [
+          "PAF-0000",
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUI 18:30 às 20:20",
+          "TER 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA62",
+    "Nome": "ENGENHARIA DE SOFTWARE I",
+    "Vagas": 15,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Claudio Nogueira Sant Anna"
+        ],
+        "Und-Sala": [
+          "PAF-0000",
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUA 20:20 às 22:10",
+          "SEG 20:20 às 22:10"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA63",
+    "Nome": "ENGENHARIA DE SOFTWARE II",
+    "Vagas": 45,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Eduardo Santana de Almeida"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUI 20:20 às 22:10",
+          "TER 20:20 às 22:10"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA64",
+    "Nome": "INTELIGÊNCIA ARTIFICIAL",
+    "Vagas": 40,
+    "Turmas": [
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Matheus Alves Guimaraes"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUA 18:30 às 20:20",
+          "SEG 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA68",
+    "Nome": "COMPUTADOR, ÉTICA E SOCIEDADE",
+    "Vagas": 55,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Debora Abdalla Santos"
+        ],
+        "Und-Sala": [
+          "ICC-0000",
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUA 18:30 às 20:20",
+          "CMB 00:00 às 00:00"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA77",
+    "Nome": "PROGRAMAÇÃO FUNCIONAL",
+    "Vagas": 10,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Docente Substituto a Contratar"
+        ],
+        "Und-Sala": [
+          "ICC-0000",
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUA 16:40 às 18:30",
+          "SEG 16:40 às 18:30"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA82",
+    "Nome": "SISTEMAS DE TEMPO REAL",
+    "Vagas": 25,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Paul Denis Etienne Regnier"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "SEX 19:25 às 22:10",
+          "SEX 18:30 às 19:25"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATA88",
+    "Nome": "FUNDAMENTOS DE SISTEMAS DISTRIBUÍDOS",
+    "Vagas": 15,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Raimundo Jose de Araujo Macedo"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUA 19:25 às 21:15",
+          "QUA 18:30 às 19:25"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATB02",
+    "Nome": "QUALIDADE DE SOFTWARE",
+    "Vagas": 40,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Gilberto de Souza Leite"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "SEX 20:20 às 21:15",
+          "SEX 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATB19",
+    "Nome": "SISTEMAS MULTIMÍDIA",
+    "Vagas": 35,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Laise Cavalcante Oliveira"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUI 20:20 às 22:10",
+          "TER 20:20 às 22:10"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC30",
+    "Nome": "LABORATÓRIO DE PROGRAMAÇÃO I",
+    "Vagas": 10,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Gilberto de Souza Leite"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUI 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC53",
+    "Nome": "ACC:ONDA SOLIDÁRIA DE INCLUSÃO DIGITAL-TECNOLOGIA A SERVIÇO",
+    "Vagas": 2,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Debora Abdalla Santos"
+        ],
+        "Und-Sala": [
+          "PAF-0000",
+          "ICC-0000"
+        ],
+        "Horário": [
+          "SEG 16:40 às 18:30",
+          "CMB 00:00 às 00:00"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC72",
+    "Nome": "INTERAÇÃO HUMANO-COMPUTADOR",
+    "Vagas": 35,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Igor Sobral Muniz"
+        ],
+        "Und-Sala": [
+          "PAF-0000",
+          "ICC-0000"
+        ],
+        "Horário": [
+          "QUA 20:20 às 22:10",
+          "SEG 20:20 às 22:10",
+          "CMB 00:00 às 00:00"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC82",
+    "Nome": "SISTEMAS WEB",
+    "Vagas": 20,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Laise Cavalcante Oliveira"
+        ],
+        "Und-Sala": [
+          "PAF-0000",
+          "ICC-0000"
+        ],
+        "Horário": [
+          "SEX 20:20 às 22:10",
+          "QUA 20:20 às 22:10"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC84",
+    "Nome": "LABORATÓRIO DE PROGRAMAÇÃO WEB",
+    "Vagas": 45,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Gilberto de Souza Leite"
+        ],
+        "Und-Sala": [
+          "ICC-0000",
+          "PAF-0000"
+        ],
+        "Horário": [
+          "SEG 20:20 às 22:10",
+          "QUA 20:20 às 21:15"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC89",
+    "Nome": "APLICAÇÕES PARA DISPOSITIVOS MÓVEIS",
+    "Vagas": 30,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Laise Cavalcante Oliveira"
+        ],
+        "Und-Sala": [
+          "ICC-0000",
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUA 18:30 às 20:20",
+          "SEX 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC92",
+    "Nome": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO",
+    "Vagas": 20,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Docente Substituto a Contratar"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "TER 18:30 às 20:20",
+          "QUI 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC94",
+    "Nome": "INTRODUÇÃO AS LINGUAGENS FORMAIS E TEORIA DA COMPUTAÇÃO",
+    "Vagas": 35,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Matheus Alves Guimaraes"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "SEG 20:20 às 22:10",
+          "QUA 20:20 às 22:10"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC97",
+    "Nome": "TCC BACHARELADO SISTEMAS DE INFORMAÇÃO I",
+    "Vagas": 81,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Alirio Santos de Sa"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Antonio Lopes Apolinario Junior"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T03",
+        "Professor": [
+          "Cassio Vinicius Serafim Prazeres"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T04",
+        "Professor": [
+          "Claudio Nogueira Sant Anna"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T05",
+        "Professor": [
+          "Daniela Barreiro Claro"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T06",
+        "Professor": [
+          "Debora Abdalla Santos"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T07",
+        "Professor": [
+          "Flavio Morais de Assis Silva"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T08",
+        "Professor": [
+          "Frederico Araujo Durao"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T09",
+        "Professor": [
+          "Gustavo Bittencourt Figueiredo"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T10",
+        "Professor": [
+          "Islame Felipe da Costa Fernandes"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T11",
+        "Professor": [
+          "Karl Philips Apaza Aguero"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T12",
+        "Professor": [
+          "Lais do Nascimento Salvador"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T13",
+        "Professor": [
+          "Leobino Nascimento Sampaio"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T14",
+        "Professor": [
+          "Luciano Reboucas de Oliveira"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T15",
+        "Professor": [
+          "Luma da Rocha Seixas"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T16",
+        "Professor": [
+          "Manoel Gomes de Mendonca Neto"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T17",
+        "Professor": [
+          "Marlo Vieira dos Santos e Souza"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T18",
+        "Professor": [
+          "Maycon Leone Maciel Peixoto"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T19",
+        "Professor": [
+          "Rafael Augusto de Melo"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T20",
+        "Professor": [
+          "Raimundo Jose de Araujo Macedo"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T21",
+        "Professor": [
+          "Ricardo Araujo Rios"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T22",
+        "Professor": [
+          "Rita Suzana Pitangueira Maciel"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T23",
+        "Professor": [
+          "Roberto Freitas Parente"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T24",
+        "Professor": [
+          "Robespierre Dantas da Rocha Pita"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T25",
+        "Professor": [
+          "Rodrigo Rocha Gomes e Souza"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T26",
+        "Professor": [
+          "Rubisley de Paula Lemes"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T27",
+        "Professor": [
+          "Sergio Gorender"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T28",
+        "Professor": [
+          "Vaninha Vieira dos Santos"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T29",
+        "Professor": [
+          "Ivan do Carmo Machado"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T30",
+        "Professor": [
+          "Danilo Barbosa Coimbra"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC98",
+    "Nome": "TCC BACHARELADO SISTEMAS DE INFORMAÇÃO II",
+    "Vagas": 65,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Alirio Santos de Sa"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T02",
+        "Professor": [
+          "Daniela Barreiro Claro"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T03",
+        "Professor": [
+          "Debora Abdalla Santos"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T04",
+        "Professor": [
+          "Flavio Morais de Assis Silva"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T05",
+        "Professor": [
+          "Frederico Araujo Durao"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T06",
+        "Professor": [
+          "Islame Felipe da Costa Fernandes"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T07",
+        "Professor": [
+          "Karl Philips Apaza Aguero"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T08",
+        "Professor": [
+          "Lais do Nascimento Salvador"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T09",
+        "Professor": [
+          "Leobino Nascimento Sampaio"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T10",
+        "Professor": [
+          "Luciano Reboucas de Oliveira"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T11",
+        "Professor": [
+          "Luma da Rocha Seixas"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T12",
+        "Professor": [
+          "Manoel Gomes de Mendonca Neto"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T13",
+        "Professor": [
+          "Marlo Vieira dos Santos e Souza"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T14",
+        "Professor": [
+          "Maycon Leone Maciel Peixoto"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T15",
+        "Professor": [
+          "Rafael Augusto de Melo"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T16",
+        "Professor": [
+          "Raimundo Jose de Araujo Macedo"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T17",
+        "Professor": [
+          "Rita Suzana Pitangueira Maciel"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T18",
+        "Professor": [
+          "Roberto Freitas Parente"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T19",
+        "Professor": [
+          "Robespierre Dantas da Rocha Pita"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T20",
+        "Professor": [
+          "Rodrigo Rocha Gomes e Souza"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T21",
+        "Professor": [
+          "Rubisley de Paula Lemes"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T22",
+        "Professor": [
+          "Sergio Gorender"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T23",
+        "Professor": [
+          "Vaninha Vieira dos Santos"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T24",
+        "Professor": [
+          "Ivan do Carmo Machado"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      },
+      {
+        "Turma": "T25",
+        "Professor": [
+          "Danilo Barbosa Coimbra"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "CMB 00:00 às 23:00"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATC99",
+    "Nome": "SEGURANÇA E AUDITORIA DE SISTEMAS DE INFORMAÇÃO",
+    "Vagas": 40,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Leobino Nascimento Sampaio"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "TER 18:30 às 20:20",
+          "QUI 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATD04",
+    "Nome": "ESTRUTURAS DE DADOS",
+    "Vagas": 20,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Flavio Morais de Assis Silva"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUI 18:30 às 20:20",
+          "TER 18:30 às 20:20"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATE04",
+    "Nome": "TÓPICOS EM BANCO DE DADOS I",
+    "Vagas": 5,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Daniela Barreiro Claro"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "TER 13:55 às 16:40"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATE22",
+    "Nome": "TÓPICOS EM COMPUTAÇÃO VISUAL IV",
+    "Vagas": 5,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Antonio Lopes Apolinario Junior"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "SEG 08:50 às 11:35"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATE64",
+    "Nome": "SEMINÁRIOS CIENTÍFICOS",
+    "Vagas": 5,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Manoel Gomes de Mendonca Neto",
+          "Daniela Barreiro Claro",
+          "George Marconi de Araujo Lima"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUI 15:45 às 16:40",
+          "QUI 14:50 às 15:45",
+          "QUI 13:55 às 14:50"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATE85",
+    "Nome": "TÓPICOS EM SISTEMAS DE INFORMAÇÃO E WEB I",
+    "Vagas": 15,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Frederico Araujo Durao"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "SEG 18:30 às 20:20",
+          "TER 20:20 às 21:15"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATF34",
+    "Nome": "ACCS:PROGRAMAÇÃO COMPETITIVA-COMPUTAÇÃO PARA ALUNOS",
+    "Vagas": 20,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Rubisley de Paula Lemes"
+        ],
+        "Und-Sala": [
+          "ICC-0000"
+        ],
+        "Horário": [
+          "SAB 13:55 às 17:35"
+        ]
+      }
+    ]
+  },
+  {
+    "Código": "MATF54",
+    "Nome": "ACCS:ONDA EDUCATiva, DIGITAL, ECOLOGISTA E PAN-AFRO-INDÍGENA",
+    "Vagas": 1,
+    "Turmas": [
+      {
+        "Turma": "T01",
+        "Professor": [
+          "Paul Denis Etienne Regnier"
+        ],
+        "Und-Sala": [
+          "PAF-0000"
+        ],
+        "Horário": [
+          "QUA 16:40 às 18:30",
+          "SEG 16:40 às 18:30"
+        ]
+      }
+    ]
+  }
+]

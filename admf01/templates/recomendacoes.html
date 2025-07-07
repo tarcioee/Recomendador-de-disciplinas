@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recomendações - Pinguim Seletor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .grupo-chip {
+      display: inline-block;
+      background: #0d6efd;
+      color: white;
+      padding: 0.25em 0.75em;
+      margin: 0 0.25em 0.25em 0;
+      border-radius: 1rem;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .card-disciplina {
+      border-radius: 0.5rem;
+      margin-bottom: 0.75rem;
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+    }
+    .card-disciplina .card-body {
+      padding: 0.5rem 1rem;
+    }
+    .professores-lista {
+      font-size: 0.85rem;
+      color: #555;
+    }
+    .horarios-lista {
+      font-size: 0.85rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body class="bg-light">
+  <div class="container py-4">
+    <h1 class="mb-3">Recomendações</h1>
+
+    <section class="mb-4">
+      <h5>Você foi encaixado nos grupos:</h5>
+      <div>
+        {% for grupo in grupos %}
+          <span class="grupo-chip">{{ grupo }}</span>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section>
+      <p>Com base nos seus dados, recomendamos as seguintes grades, nessa ordem de consideração:</p>
+
+      {% for rec in recomendacoes %}
+        <div class="card mb-4">
+          <div class="card-header bg-primary text-white">
+            <h5 class="mb-0 text-capitalize">Grade '{{ rec.tipo }}'</h5>
+          </div>
+          <div class="card-body">
+            {% for d in rec.disciplinas %}
+              <div class="card-disciplina p-2 mb-2 bg-white">
+                <strong>{{ d.nome }}</strong> ({{ d.codigo }})<br/>
+                <div class="professores-lista">
+                  Prof.: {{ d.professores | join(', ') }}
+                </div>
+                <div class="horarios-lista">
+                  Horários: {{ d.horarios | join(', ') }}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+
+      <a href="{{ url_for('index') }}" class="btn btn-secondary">Voltar</a>
+    </section>
+  </div>
+</body>
+</html>
