@@ -6,7 +6,7 @@ from core.dominio.perfil_usuario import PerfilDoUsuario
 from core.utils.calculos import calcular_limite_disciplinas
 from core.utils.agrupar import agrupar_usuario
 from core.utils.saida import teste_exibir_recomendacoes_personalizadas, determinar_ordem_grade_fuzzy
-
+import os
  
 app = Flask(__name__)
  
@@ -76,6 +76,7 @@ def recomendar():
                            grupos=perfil.grupos,
                            recomendacoes=recomendacoes)
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
- 
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
