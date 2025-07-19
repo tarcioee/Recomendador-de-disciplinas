@@ -1,6 +1,7 @@
 from collections import Counter, defaultdict
-from datetime import timedelta
+from datetime import timedelta, datetime, date
 from core.utils.horario import parse_horario, faixa_turno
+
 
 def teste_exibir_recomendacoes_personalizadas(perfil, recomendador, ementario, disciplinas_feitas):
     linhas = []
@@ -35,8 +36,6 @@ def teste_exibir_recomendacoes_personalizadas(perfil, recomendador, ementario, d
 # core/utils/saida.py
 
 def grade_com_resumo_para_linhas(grade, ementario, disciplinas_feitas):
-    from collections import Counter, defaultdict
-    from datetime import timedelta
     linhas = []
 
     # Se a grade estiver vazia, retorna uma mensagem
@@ -75,13 +74,13 @@ def grade_com_resumo_para_linhas(grade, ementario, disciplinas_feitas):
                 dia_para_horas[dia][0] = min(dia_para_horas[dia][0], ini)
                 dia_para_horas[dia][1] = max(dia_para_horas[dia][1], fim)
 
-    linhas.append(f"- Dias com aulas na semana: {len(dias_usados)}")
+    #linhas.append(f"- Dias com aulas na semana: {len(dias_usados)}")
     
     total_horas_semana = 0
     for ini, fim in dia_para_horas.values():
         duracao = timedelta(hours=fim.hour, minutes=fim.minute) - timedelta(hours=ini.hour, minutes=ini.minute)
         total_horas_semana += duracao.total_seconds() / 3600
-    linhas.append(f"- Carga horária semanal no campus: {total_horas_semana:.2f} horas")
+    #linhas.append(f"- Carga horária semanal no campus: {total_horas_semana:.2f} horas")
 
 
     if total_blocos > 0:
@@ -103,7 +102,7 @@ def grade_com_resumo_para_linhas(grade, ementario, disciplinas_feitas):
     for s in sorted(contagem_semestre):
         dist_semestres.append(f"Semestre {s}: {contagem_semestre[s]}")
     if dist_semestres:
-        linhas.append("- Disciplinas por semestre: " + ", ".join(dist_semestres))
+        linhas.append("- Semestre das disciplinas: " + ", ".join(dist_semestres))
     
     linhas.append(f"- Disciplinas optativas: {optativas}")
 
