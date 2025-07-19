@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Pinguim Seletor de Matérias</title>
+  <title>Pinguim Recomendador de Matérias</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
   <style>
     .disciplina-item {
@@ -65,9 +65,9 @@
   <div class="d-flex align-items-center mb-4">
   <img src="{{ url_for('static', filename='imagens/pinguim.webp') }}" alt="Pinguim" 
        class="rounded shadow-sm" style="height: 50px; margin-right: 15px; width: auto;">
-  <h1 class="fw-bold mb-0">Pinguim Recomendador de Matérias</h1>
+  <h1 class="fw-bold mb-0">Pinguim Recomendador de Disciplinas</h1>
 </div> 
-  <form action="/recomendar" method="POST">
+  <form id="form-recomendador" action="/recomendar" method="POST">
     <div class="row mb-3">
       <div class="col-md-4 form-floating">
         <input type="number" name="tempo_estudo" class="form-control" id="tempo_estudo" placeholder="Estudo" required />
@@ -139,24 +139,36 @@
 <!-- dentro do <script> -->
 <script>
   const todosProfessores = [
-  'adriano leal bruni', 'alirio santos de sa', 'andrei bovykin', 'antonio lopes apolinario junior',
-  'arthur cavalcante cunha', 'artur caldas brandao', 'bruno pereira dos santos',
-  'cassio vinicius serafim prazeres', 'claudio nogueira sant anna', 'daniela barreiro claro',
-  'danilo barbosa coimbra', 'debora abdalla santos', 'diogo franco rios',
-  'docente nao informado pelo', 'docente substituto a contratar', 'domingos savio pimentel siqueira',
-  'eduardo santana de almeida', 'euclerio barbosa ornellas filho', 'flavio morais de assis silva',
-  'frederico araujo durao', 'george marconi de araujo lima', 'gilberto de souza leite',
-  'gilberto pereira sassi', 'gustavo bittencourt figueiredo', 'igor chagas santos',
-  'igor sobral muniz', 'islame felipe da costa fernandes', 'ivan do carmo machado',
-  'jair sampaio soares junior', 'karl philips apaza aguero', 'lais do nascimento salvador',
-  'laise cavalcante oliveira', 'leobino nascimento sampaio', 'luciano reboucas de oliveira',
-  'luma da rocha seixas', 'manoel gomes de mendonca neto', 'marineia almeida dos santos',
-  'marlo vieira dos santos e souza', 'matheus alves guimaraes', 'maycon leone maciel peixoto',
-  'nanci araujo bento', 'olivan da silva rabelo', 'paul denis etienne regnier',
-  'rafael augusto de melo', 'raimundo jose de araujo macedo', 'ricardo araujo rios',
-  'rita suzana pitangueira maciel', 'roberto freitas parente', 'robespierre dantas da rocha pita',
-  'rodrigo rocha gomes e souza', 'rubisley de paula lemes', 'sergio gorender',
-  'steffen lewitzka', 'vaninha vieira dos santos', 'vinicius moreira mello'
+    'ADRIANA PUCCI PENTEADO DE FARIA E SILVA',
+    'ANDREAS BERNHARD MICHAEL BRUNNER',
+    'CLAUDIO NOGUEIRA SANT ANNA',
+    'DEBORA ABDALLA SANTOS',
+    'EUCLERIO BARBOSA ORNELLAS FILHO',
+    'FLAVIO MORAIS DE ASSIS SILVA',
+    'GILBERTO DE SOUZA LEITE',
+    'HORACIO NELSON HASTENREITER FILHO',
+    'IGOR CHAGAS SANTOS',
+    'IGOR SOBRAL MUNIZ',
+    'JAIR SAMPAIO SOARES JUNIOR',
+    'JOAO MARTINS TUDE',
+    'KARL PHILIPS APAZA AGUERO',
+    'LAIS DO NASCIMENTO SALVADOR',
+    'LAISE CAVALCANTE OLIVEIRA',
+    'LARISSA BARBOSA LEONCIO PINHEIRO',
+    'LEOBINO NASCIMENTO SAMPAIO',
+    'LETICIA DE SOUZA MAGALHAES DAMASCENO',
+    'LUCIANO REBOUCAS DE OLIVEIRA',
+    'MANOEL GOMES DE MENDONCA NETO',
+    'MARCELO MAGALHAES TADDEO',
+    'MARCO CERAMI',
+    'MONIQUE PFAU',
+    'PAUL DENIS ETIENNE REGNIER',
+    'RAIMUNDO JOSE DE ARAUJO MACEDO',
+    'ROBESPIERRE DANTAS DA ROCHA PITA',
+    'RODRIGO ROCHA GOMES E SOUZA',
+    'RUBISLEY DE PAULA LEMES',
+    'STEFFEN LEWITZKA',
+    'TYAGO OLIVEIRA DO CARMO'
 ];
 
 function mostrarListaProfessores() {
@@ -289,6 +301,16 @@ function alternarDisciplinas(semestre, botao) {
 
 
 </script>
+<script>
+document.getElementById("form-recomendador").addEventListener("submit", function (e) {
+  const turnosMarcados = document.querySelectorAll('input[name="turnos_livres"]:checked');
+  if (turnosMarcados.length === 0) {
+    e.preventDefault(); // Impede envio do formulário
+    alert("Você deve selecionar pelo menos um turno disponível (matutino, vespertino ou noturno).");
+  }
+});
+</script>
+
 <a href="https://github.com/tarcioee/Sad-seletor-materias" target="_blank" rel="noopener noreferrer" class="github-float-button" title="Ver código-fonte no GitHub">
   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
