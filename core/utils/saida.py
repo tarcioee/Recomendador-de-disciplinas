@@ -104,7 +104,7 @@ def grade_com_resumo_para_linhas(grade, ementario, disciplinas_feitas):
     if dist_semestres:
         linhas.append("- Semestre das disciplinas: " + ", ".join(dist_semestres))
     
-    linhas.append(f"- Disciplinas optativas: {optativas}")
+    #linhas.append(f"- Disciplinas optativas: {optativas}")
 
     feitas = set(disciplinas_feitas)
     # 'selecionadas' é o conjunto com os códigos das disciplinas da grade recomendada
