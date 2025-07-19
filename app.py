@@ -27,6 +27,7 @@ def recomendar():
     semestres = [int(s) for s in request.form.getlist('semestres_concluidos')]
 
     turnos = request.form.getlist('turnos_livres')
+    print(turnos)
     professores = [p.strip() for p in request.form['professores_excluidos'].split(',') if p.strip()]
     codigos_feitos = [c.strip().lower() for c in request.form['codigos_disciplinas_feitas'].split(',') if c.strip()]
 
