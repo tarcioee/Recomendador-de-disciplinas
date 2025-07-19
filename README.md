@@ -1,5 +1,5 @@
 # Sistema de recomendação de disciplinas
-O Pinguim Recomendador é uma ferramenta projetada para simplificar a complexa tarefa de escolher disciplinas a cada semestre. Com base em um perfil detalhado do aluno, o sistema utiliza uma lógica personalizada para sugerir grades horárias otimizadas, equilibrando as necessidades acadêmicas com as restrições pessoais do estudante.
+O Pinguim Recomendador é uma ferramenta projetada para simplificar a complexa tarefa de escolher disciplinas a cada semestre. Com base em um perfil detalhado do aluno, o sistema utiliza uma lógica personalizada para sugerir grades horárias otimizadas, equilibrando as necessidades acadêmicas com as restrições pessoais do estudante. Disponivel atualmente para o curso de Sistemas de Informação da UFBA.
 
 Índice
 ✨ Funcionalidades

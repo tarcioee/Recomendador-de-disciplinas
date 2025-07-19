@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Pinguim Recomendador de Matérias</title>
+  <title>Pinguim Recomendador V1.0</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
   <style>
     .disciplina-item {
@@ -71,11 +71,11 @@
     <div class="row mb-3">
       <div class="col-md-4 form-floating">
         <input type="number" name="tempo_estudo" class="form-control" id="tempo_estudo" placeholder="Estudo" required />
-        <label for="tempo_estudo">Tempo a ser dedicado pra estudo (h/semana)</label>
+        <label for="tempo_estudo">Tempo total pra estudo e sala de aula (h/semana)</label>
       </div>
       <div class="col-md-4 form-floating">
         <input type="number" name="tempo_transporte" class="form-control" id="tempo_transporte" placeholder="Transporte" required />
-        <label for="tempo_transporte">Tempo a ser gasto em tansporte (h/semana)</label>
+        <label for="tempo_transporte">Tempo estimado gasto em tansporte (h/semana)</label>
       </div>
       <div class="col-md-4 form-floating">
         <input type="number" name="tempo_trabalho" class="form-control" id="tempo_trabalho" placeholder="Trabalho" required />
@@ -110,7 +110,7 @@
     </div>
 
     <div class="mb-3">
-      <label class="form-label">Professores a evitar:</label>
+      <label class="form-label">Professores a banir:</label>
       <input type="text" class="form-control mb-2" id="campo-professor" placeholder="Digite um nome..." autocomplete="off" oninput="filtrarProfessores()" onclick="mostrarListaProfessores()" />
 
       <!-- onde ficam os selecionados -->
