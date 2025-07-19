@@ -55,18 +55,30 @@
             <h5 class="mb-0 text-capitalize">Grade '{{ rec.tipo }}'</h5>
           </div>
           <div class="card-body">
-            {% for d in rec.disciplinas %}
-              <div class="card-disciplina p-2 mb-2 bg-white">
-                <strong>{{ d.nome }}</strong> ({{ d.codigo }})<br/>
-                <div class="professores-lista">
-                  Prof.: {{ d.professores | join(', ') }}
+            {% if rec.disciplinas %}
+              {% for d in rec.disciplinas %}
+                <div class="card-disciplina p-2 mb-2 bg-white">
+                  <strong>{{ d.nome }}</strong> ({{ d.codigo }})<br/>
+                  <div class="professores-lista">
+                    Prof.: {{ d.professores | join(', ') | title }}
+                  </div>
+                  <div class="horarios-lista">
+                    Horários: {{ d.horarios | join(', ') }}
+                  </div>
                 </div>
-                <div class="horarios-lista">
-                  Horários: {{ d.horarios | join(', ') }}
-                </div>
-              </div>
-            {% endfor %}
-          </div>
+              {% endfor %}
+            {% endif %}
+
+            <hr>
+            <div class="resumo-grade mt-3">
+              <h6 class="mb-2">📊 Resumo da Grade</h6>
+              <ul class="list-unstyled" style="font-size: 0.9rem;">
+                {% for linha in rec.resumo %}
+                  <li class="mb-1">{{ linha | safe }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            </div>
         </div>
       {% endfor %}
 

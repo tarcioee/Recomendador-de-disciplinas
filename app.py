@@ -5,7 +5,7 @@ from core.servicos.recomendador import Recomendador
 from core.dominio.perfil_usuario import PerfilDoUsuario
 from core.utils.calculos import calcular_limite_disciplinas
 from core.utils.agrupar import agrupar_usuario
-from core.utils.saida import teste_exibir_recomendacoes_personalizadas, determinar_ordem_grade_fuzzy
+from core.utils.saida import grade_com_resumo_para_linhas, determinar_ordem_grade_fuzzy
 import os
  
 app = Flask(__name__)
@@ -45,9 +45,7 @@ def recomendar():
     perfil.grupos = agrupar_usuario(perfil.tempo_transporte, perfil.tempo_trabalho, perfil.tempo_estudo)
 
     recomendador = Recomendador(ementario, guia, perfil.semestres_concluidos)
-
     recomendacoes = []
-
     ordem = determinar_ordem_grade_fuzzy(perfil)
     ajuste_limite = {"recomendada": 0, "mais fácil": -1, "desafiadora": 1}
 
@@ -59,18 +57,28 @@ def recomendar():
             perfil.professores_excluidos,
             limite
         )
-        disciplinas = []
+        
+        disciplinas_formatadas = []
         for disciplina, turma in grade:
-            disciplinas.append({
+            disciplinas_formatadas.append({
                 "nome": disciplina.nome,
                 "codigo": disciplina.codigo,
                 "professores": turma.professores,
                 "horarios": turma.horarios,
             })
+
+        # >>> INÍCIO DA MODIFICAÇÃO <<<
+        # Gera o resumo para a grade atual
+        resumo_da_grade = grade_com_resumo_para_linhas(
+            grade, ementario, perfil.codigos_disciplinas_feitas
+        )
+
         recomendacoes.append({
             "tipo": tipo,
-            "disciplinas": disciplinas
+            "disciplinas": disciplinas_formatadas,
+            "resumo": resumo_da_grade  # Adiciona o resumo ao dicionário
         })
+        # >>> FIM DA MODIFICAÇÃO <<<
 
     return render_template("recomendacoes.html",
                            grupos=perfil.grupos,
