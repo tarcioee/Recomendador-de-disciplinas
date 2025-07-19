@@ -12,7 +12,7 @@ app = Flask(__name__)
  
 ementario = Ementario("dados/ementario.json")
 guia = GuiaMatricula("dados/guia_de_matricula.json")
- 
+  
 @app.route("/") 
 def index():
     print("Carregando index.html")
