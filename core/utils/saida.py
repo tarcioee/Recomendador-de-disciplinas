@@ -100,9 +100,9 @@ def grade_com_resumo_para_linhas(grade, ementario, disciplinas_feitas):
     
     dist_semestres = []
     for s in sorted(contagem_semestre):
-        dist_semestres.append(f"Semestre {s}: {contagem_semestre[s]}")
+        dist_semestres.append(f"Semestre {s}: {contagem_semestre[s]} disciplinas")
     if dist_semestres:
-        linhas.append("- Semestre das disciplinas: " + ", ".join(dist_semestres))
+        linhas.append("- " + ", ".join(dist_semestres))
     
     #linhas.append(f"- Disciplinas optativas: {optativas}")
 
