@@ -88,7 +88,7 @@
       {% for i in range(1, 11) %}
         <div class="d-flex justify-content-between align-items-start mb-1">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="semestres_concluidos" value="{{ i }}" id="semestre{{ i }}">
+            <input class="form-check-input" type="checkbox" name="semestres_concluidos" value="{{ i }}" id="semestre{{ i }}" onchange="marcarDisciplinasDoSemestre({{ i }})">
             <label class="form-check-label" for="semestre{{ i }}">Semestre {{ i }}</label>
           </div>
           <button type="button" class="btn btn-outline-secondary btn-sm ms-2" onclick="alternarDisciplinas({{ i }}, this)">
@@ -255,50 +255,99 @@ const disciplinasPorSemestre = {
   9: ['tcc bacharelado sistemas de informação i (MATC97)'],
   10: ['tcc bacharelado sistemas de informação ii (MATC98)']
 };
-function alternarDisciplinas(semestre, botao) {
+
+/**
+ * Função chamada quando a caixa do SEMESTRE é clicada.
+ * Marca ou desmarca todas as disciplinas filhas.
+ */
+function marcarDisciplinasDoSemestre(semestre) {
+  const semestreCheckbox = document.getElementById(`semestre${semestre}`);
+  const isChecked = semestreCheckbox.checked;
+
   const container = document.getElementById(`disciplinas-semestre-${semestre}`);
+  const disciplinasCheckboxes = container.querySelectorAll('input[type="checkbox"]');
 
-  if (container.dataset.loaded === "true") {
-    container.classList.toggle("d-none");
-    botao.querySelector(".icon").textContent = container.classList.contains("d-none") ? "+" : "–";
-    return;
-  }
-
-  const disciplinas = disciplinasPorSemestre[semestre] || [];
-  disciplinas.forEach(nome => {
-    const match = nome.match(/\((.*?)\)/);
-    if (!match) return;
-    const codigo = match[1].trim().toUpperCase();
-    const label = nome.split(' (')[0];
-
-    const wrapper = document.createElement('div');
-    wrapper.className = 'disciplina-item shadow-sm border';
-
-    const checkbox = document.createElement('input');
-    checkbox.type = 'checkbox';
-    checkbox.className = 'form-check-input me-2';
-    checkbox.onchange = function () {
-      const input = document.getElementById('codigos_disciplinas_feitas');
-      let codigos = input.value.split(',').map(c => c.trim().toUpperCase()).filter(Boolean);
-      if (this.checked && !codigos.includes(codigo)) codigos.push(codigo);
-      else if (!this.checked) codigos = codigos.filter(c => c !== codigo);
-      input.value = codigos.join(', ');
-    };
-
-    const text = document.createElement('label');
-    text.className = 'form-check-label';
-    text.textContent = label;
-
-    wrapper.appendChild(checkbox);
-    wrapper.appendChild(text);
-    container.appendChild(wrapper);
+  disciplinasCheckboxes.forEach(checkbox => {
+    if (checkbox.checked !== isChecked) {
+      checkbox.checked = isChecked;
+      // Dispara o evento onchange da disciplina para atualizar a lista de códigos
+      checkbox.onchange(); 
+    }
   });
-
-  container.dataset.loaded = "true";
-  container.classList.remove("d-none");
-  botao.querySelector(".icon").textContent = "–";
 }
 
+/**
+ * Função chamada quando a caixa de uma DISCIPLINA é clicada.
+ * Verifica o estado das irmãs e atualiza a caixa pai (semestre).
+ */
+function atualizarStatusSemestre(semestre) {
+  const semestreCheckbox = document.getElementById(`semestre${semestre}`);
+  const container = document.getElementById(`disciplinas-semestre-${semestre}`);
+  const disciplinasCheckboxes = container.querySelectorAll('input[type="checkbox"]');
+
+  if (disciplinasCheckboxes.length === 0) {
+    return; // Não faz nada se as disciplinas não foram carregadas
+  }
+
+  // Verifica se TODAS as caixas de disciplina estão marcadas
+  const todasMarcadas = Array.from(disciplinasCheckboxes).every(cb => cb.checked);
+  semestreCheckbox.checked = todasMarcadas;
+}
+
+function alternarDisciplinas(semestre, botao) {
+    const container = document.getElementById(`disciplinas-semestre-${semestre}`);
+    if (container.dataset.loaded === "true") {
+      container.classList.toggle("d-none");
+      botao.querySelector(".icon").textContent = container.classList.contains("d-none") ? "+" : "–";
+      return;
+    }
+
+    const disciplinas = disciplinasPorSemestre[semestre] || [];
+    disciplinas.forEach(nome => {
+      const match = nome.match(/\((.*?)\)/);
+      if (!match) return;
+      const codigo = match[1].trim().toUpperCase();
+      const label = nome.split(' (')[0];
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'disciplina-item shadow-sm border';
+
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.className = 'form-check-input me-2';
+      
+      // AQUI ESTÁ A MUDANÇA PRINCIPAL
+      checkbox.onchange = function () {
+        // Lógica original para atualizar o campo oculto
+        const input = document.getElementById('codigos_disciplinas_feitas');
+        let codigos = input.value.split(',').map(c => c.trim().toUpperCase()).filter(Boolean);
+        if (this.checked && !codigos.includes(codigo)) {
+          codigos.push(codigo);
+        } else if (!this.checked) {
+          codigos = codigos.filter(c => c !== codigo);
+        }
+        input.value = codigos.join(', ');
+
+        // Nova chamada para atualizar a caixa do semestre pai
+        atualizarStatusSemestre(semestre);
+      };
+
+      const text = document.createElement('label');
+      text.className = 'form-check-label';
+      text.textContent = label;
+
+      wrapper.appendChild(checkbox);
+      wrapper.appendChild(text);
+      container.appendChild(wrapper);
+    });
+
+    container.dataset.loaded = "true";
+    container.classList.remove("d-none");
+    botao.querySelector(".icon").textContent = "–";
+    
+    // Sincroniza o estado inicial das disciplinas com o do semestre
+    marcarDisciplinasDoSemestre(semestre);
+  }
 
 </script>
 <script>
